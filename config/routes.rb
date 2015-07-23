@@ -16,6 +16,7 @@ Rails.application.routes.draw do
     resources :comments
   end
   resources :tags
+  resources :authors
 
   # Example resource route with options:
   #   resources :products do
